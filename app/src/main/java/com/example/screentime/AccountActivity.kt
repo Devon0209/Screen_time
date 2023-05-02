@@ -136,7 +136,7 @@ class AccountActivity : AppCompatActivity() {
             .addOnSuccessListener {  e->
                 progressDialog.dismiss()
                 Toast.makeText( this,  "Account created...", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this@AccountActivity, MainActivity::class.java))
+                startActivity(Intent(this@AccountActivity, LoginActivity::class.java))
                 finish()
 
             }

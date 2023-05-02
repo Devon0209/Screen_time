@@ -45,7 +45,7 @@ class SplashActivity : AppCompatActivity() {
                                         startActivity(
                                             Intent(
                                                 this@SplashActivity,
-                                                MainActivity::class.java
+                                                LoginActivity::class.java
                                             )
                                         )
                                         finish()
@@ -54,8 +54,8 @@ class SplashActivity : AppCompatActivity() {
                                         startActivity(
                                             Intent(
                                                 this@SplashActivity,
-                                                MainActivity::class.java
-                                            )
+                                                LoginActivity::class.java
+                                             )
                                         )
                                         finish()
                                     }

@@ -106,11 +106,11 @@ startActivity(Intent( this, AccountActivity::class.java))
                         val userType = snapshot.child("userType").value
 
                         if (userType == "user") {
-                            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+                            startActivity(Intent(this@LoginActivity, Category::class.java))
                             finish()
                         } else if (userType == "admin") {
                             //its admin, open admin dashboard
-                            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+                            startActivity(Intent(this@LoginActivity,  Category::class.java))
                             finish()
                         }
                     }
