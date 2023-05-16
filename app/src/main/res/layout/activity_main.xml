@@ -33,7 +33,7 @@
                 android:layout_marginTop="50sp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:text="Catergory Search"
+                android:text="Admin Catergory"
                 android:textColor="@color/black"
                 android:textSize="30sp" />
 

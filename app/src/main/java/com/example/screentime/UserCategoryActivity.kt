@@ -78,7 +78,7 @@ class UserCategoryActivity : AppCompatActivity() {
                         override fun onItemClick(position: Int) {
 
                             val selectedCategoryName = categoryModelArrayList[position].name.toString()
-                            val intent = Intent(this@UserCategoryActivity, BookActivity::class.java)
+                            val intent = Intent(this@UserCategoryActivity, UserBooks::class.java)
                             intent.putExtra("categoryName", selectedCategoryName)
                             startActivity(intent)
                             Toast.makeText(this@UserCategoryActivity,"Success $position", Toast.LENGTH_SHORT).show()
