@@ -44,15 +44,14 @@ class AccountActivity : AppCompatActivity() {
         }
 
         //handle click, begin register
-        binding.signupBtn.setOnClickListener {
-            /* Steps
-            1) Input data
-            2) Validate Data
-            3) Create Account - Firebase Auth
-            4) Save User Information- Firebase Realtime Database*/
+        binding.signupBtn2.setOnClickListener {
+
             validateData()
         }
+        binding.loginpageBtn.setOnClickListener {
 
+            setContentView(R.layout.login_user)
+        }
     }
 
     private var name = ""

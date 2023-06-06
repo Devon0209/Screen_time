@@ -7,11 +7,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Orbit library"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
-
+        <activity
+            android:name=".activity_splash"
+            android:exported="false" />
         <activity
             android:name=".UserCategoryActivity"
             android:exported="false" />
@@ -34,15 +36,6 @@
         <activity
             android:name=".MyspaceAdminActivity"
             android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name" />

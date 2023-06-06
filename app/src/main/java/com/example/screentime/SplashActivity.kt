@@ -10,11 +10,14 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
+
+
+
 class SplashActivity : AppCompatActivity() {
     private lateinit var firebaseAuth: FirebaseAuth
     override fun onCreate (savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_splashscreen)
         firebaseAuth = FirebaseAuth.getInstance()
         Handler().postDelayed(Runnable {
             checkUser()
@@ -69,6 +72,10 @@ class SplashActivity : AppCompatActivity() {
                     }
                 }
             }}
+
+
+
+
 /*Keep user logged in
 * 1) Check if user logged in
 * 2) check type of user*/
