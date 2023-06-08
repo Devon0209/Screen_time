@@ -21,7 +21,8 @@ class SplashActivity : AppCompatActivity() {
         firebaseAuth = FirebaseAuth.getInstance()
         Handler().postDelayed(Runnable {
             checkUser()
-        },  1000) //means 1 seconds
+        },  2000) //means 2 seconds
+
     }
 
             private fun checkUser () {

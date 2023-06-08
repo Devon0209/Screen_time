@@ -14,5 +14,10 @@
     <string name="description_9">In this self-help book, author Yasmin Mogahed offers insights into overcoming emotional pain and finding inner peace. The book draws on Islamic teachings and provides practical advice on developing self-awareness, forgiveness, and gratitude.</string>
     <string name="description_10">In this book, author Firas Alkhateeb provides a comprehensive overview of Islamic history, with a focus on the lesser-known aspects of the religion. The book provides insights into the contributions of Muslims to science, philosophy, and art, and challenges misconceptions about Islam.</string>
     <string name="logo_for_splashscreen">Logo for splashscreen</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="password">PASSWORD</string>
 
 </resources>
