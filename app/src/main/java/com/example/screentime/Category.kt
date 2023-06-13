@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
 import com.example.screentime.databinding.ActivityMainBinding
+import com.example.screentime.AdminBooks
 import za.ac.iie.opsc7311.orbit_prototype.CategoryAdapter
 
 
@@ -90,7 +91,7 @@ class Category : AppCompatActivity() {
                         override fun onItemClick(position: Int) {
 
                             val selectedCategoryName = categoryModelArrayList[position].name.toString()
-                            val intent = Intent(this@Category, BookActivity::class.java)
+                            val intent = Intent(this@Category, AdminBooks::class.java)
                             intent.putExtra("categoryName", selectedCategoryName)
                             startActivity(intent)
                             Toast.makeText(this@Category,"Ziyakhala $position", Toast.LENGTH_SHORT).show()

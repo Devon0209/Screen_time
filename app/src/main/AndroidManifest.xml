@@ -12,21 +12,15 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".UserBooks"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="false" />
         <activity
             android:name=".UserCategoryActivity"
             android:exported="false" />
-        <activity
-            android:name=".UserBooks"
-            android:exported="false" />
-        <activity android:name=".BookActivity" />
-        <activity
-            android:name=".DetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddBook"
-            android:exported="false" />
+
         <activity
             android:name=".AddCategory2"
             android:exported="false" />
