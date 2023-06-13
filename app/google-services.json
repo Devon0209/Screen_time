@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "954423547668",
-    "project_id": "orbitlibraries",
-    "storage_bucket": "orbitlibraries.appspot.com"
+    "project_number": "1087390829698",
+    "project_id": "orbit-972fe",
+    "storage_bucket": "orbit-972fe.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:954423547668:android:b738df7bbe126574725401",
+        "mobilesdk_app_id": "1:1087390829698:android:3069f28f99f78ec775389b",
         "android_client_info": {
           "package_name": "com.example.screentime"
         }
       },
       "oauth_client": [
         {
-          "client_id": "954423547668-1v97o9v6teirin4jr39risdv2mc6thlb.apps.googleusercontent.com",
+          "client_id": "1087390829698-bd5oiugs5165o7jvehpm9do1hrlrlmno.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCw3WNg13d_qnyS1ALzxW4q5CitW_EzhUI"
+          "current_key": "AIzaSyA4bvpF8G405TAnH0rmec_g1jBa3eGYKmI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "954423547668-1v97o9v6teirin4jr39risdv2mc6thlb.apps.googleusercontent.com",
+              "client_id": "1087390829698-bd5oiugs5165o7jvehpm9do1hrlrlmno.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

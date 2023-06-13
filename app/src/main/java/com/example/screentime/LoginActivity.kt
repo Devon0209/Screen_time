@@ -12,7 +12,9 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.google.firebase.ktx.Firebase
+
+
+
 
 
 class LoginActivity : AppCompatActivity() {
@@ -44,8 +46,11 @@ class LoginActivity : AppCompatActivity() {
         binding.forgotpasswordBtn.setOnClickListener {
 
  }//handle click, sign up
-        binding.signupBtn.setOnClickListener {
-startActivity(Intent( this, AccountActivity::class.java))
+        binding.signupBtnTap.setOnClickListener {
+
+            setContentView(R.layout.create_account)
+            startActivity(Intent( this, AccountActivity::class.java))
+
         }
 
 
